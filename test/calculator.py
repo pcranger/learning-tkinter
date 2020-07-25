@@ -77,7 +77,6 @@ def button_click(number):
 #def button_click(a):
 
 
- 
 #define buttons
 button_1 = Button(root, text = "1", padx = 40, pady = 20, command = lambda: button_click(1))
 button_2 = Button(root, text = "2", padx = 40, pady = 20, command = lambda: button_click(2))
@@ -129,6 +128,5 @@ button_divide.grid(row= 6, column= 1)
 #columnspan = 2: we only see 1 button, but it's occupying 2 cells
 #The column will default to the cell that will accomodate the widest item
 #button_clear.grid(row= 4, column= 1) in this case, each cell i has the same size as the clear button since it's the largest.
-
 
 root.mainloop()
