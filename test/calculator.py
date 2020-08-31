@@ -18,6 +18,9 @@ def button_add():
 	first_number = f_num
 
 
+
+
+
 def button_subtract():
 	global math
 	global first_number
